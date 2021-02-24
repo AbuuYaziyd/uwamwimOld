@@ -1,0 +1,19 @@
+#content{
+        /* the width in here will be changed 
+        width: this requirment will be changed
+        i dont' want to type my left, right content static
+        is there a way? */
+        background-color: azure;
+    }
+    #left{
+        float:left;
+        width: 50%;
+    }
+    #right{
+        float:right;
+        width: 50%;
+    }
+    /* #bottom{ */
+        /*what do i have to do in here?
+        float:*/
+    /* } */
