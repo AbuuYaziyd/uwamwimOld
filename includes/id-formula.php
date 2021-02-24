@@ -19,7 +19,7 @@ $highest_id = $row['max'];
             //       $intake += 1;
 				//    echo $k . "" . $id . "" . $intake . "" . $year;
 				   $reg = $k . "" . $id . "" . $dt . "" . $month . "" . $year;
-				   echo $reg;
+				  //  echo $reg;
                 
             //    } else if($month >= 7 && $month<=12) {
             //         $intake += 2;
