@@ -10,5 +10,7 @@ Can Update User Data (Produces)
 
 Can View User Status (Produce Book)
 
+==> shuold be able to view User Status (Produce Book) in GRAPH mode! and PIE CHARTS!
+
 # 2. Users
 "we have not yet configured his/her Functions!"
