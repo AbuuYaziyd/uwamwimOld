@@ -12,7 +12,7 @@ if (!empty($amount) || !empty($yield) || !empty($userID)) {
     } else {
       $INSERT = "INSERT INTO prod (amount, yield, UserId) VALUES ('$amount', '$yield', '$userID')";
       if (mysqli_query($conn, $INSERT)) {
-      header ("location: admn-index.php");
+      header ("location: search.php");
      } else {
       echo "Kuna Mtu tayari ameshasajiliwa!";
      }
