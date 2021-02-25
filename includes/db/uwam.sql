@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2021 at 08:33 AM
+-- Generation Time: Feb 25, 2021 at 09:35 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -64,7 +64,11 @@ INSERT INTO `prod` (`id`, `yield`, `amount`, `userID`, `created`) VALUES
 (4, 'embe', 10, 'UWAM722022021', '2021-02-23'),
 (5, 'Biringanya', 30, 'UWAM722022021', '2021-02-23'),
 (6, 'Biringanya', 30, 'UWAM722022021', '2021-02-23'),
-(7, 'Nyanya Chungu', 40, 'UWAM0212021', '2021-02-23');
+(7, 'Nyanya Chungu', 40, 'UWAM0212021', '2021-02-23'),
+(8, 'Cabbage', 20, 'UWAM0212021', '2021-02-24'),
+(9, 'Matango', 50, 'UWAM822022021', '2021-02-25'),
+(10, 'Cabbage', 30, 'UWAM822022021', '2021-02-25'),
+(11, 'Bamia', 40, 'UWAM822022021', '2021-02-25');
 
 -- --------------------------------------------------------
 
@@ -133,7 +137,7 @@ ALTER TABLE `admn`
 -- AUTO_INCREMENT for table `prod`
 --
 ALTER TABLE `prod`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
