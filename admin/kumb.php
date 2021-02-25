@@ -30,6 +30,7 @@ if ($sql -> connect_errno)
 ?> 
 <!DOCTYPE HTML>
 <html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <body>
 <center><h2>System ya Kutunza Kumbukumbu UWAMWIMA</h2></center>
 
@@ -83,8 +84,8 @@ if ($sql -> connect_errno)
 <tr>
 <td></td>
 <td>
-<input type="submit" value="submit">
-<input type="reset" value="Reset">
+<input type="submit" value="Hifadhi">
+<!-- <input type="reset" value="Reset"> -->
 </td>
 </tr>
 </table>
